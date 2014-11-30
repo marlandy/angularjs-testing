@@ -1,0 +1,11 @@
+{
+  "name": "angular-testing",
+  "description": "AngularJS testing project",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.x",
+    "angular-mocks": "~1.2.x"
+  }
+}

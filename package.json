@@ -1,0 +1,19 @@
+{
+  "name": "angular-testing",
+  "private": true,
+  "version": "0.0.1",
+  "description": "AngularJS testing project",
+  "repository": "??????????",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.1",    
+    "karma": "~0.10",
+    "karma-junit-reporter": "^0.2.2"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js  --single-run"    
+  }
+}
