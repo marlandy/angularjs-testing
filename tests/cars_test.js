@@ -1,6 +1,6 @@
 'use strict';
 
-describe('app.cars', function () {
+describe('Modulo app.cars', function () {
 
     beforeEach(function () {
         module('app.cars');
@@ -17,13 +17,12 @@ describe('app.cars', function () {
             ]);
         });
 
-        it('should return a list of two cars', function () {
+        it('debe devolver una lista de dos coches', function () {
             var cars = carsService.getAll();
             expect(cars).toBeDefined();
             expect(cars.length).toBe(2);
         });
     });
-
 
     describe('Cars controller', function () {
 
@@ -41,7 +40,7 @@ describe('app.cars', function () {
             $scope = $rootScope.$new();
         }));
 
-        it('should have a list of cars', inject(function ($controller, MockedCarsService) {
+        it('debe exponer la lista de coches', inject(function ($controller, MockedCarsService) {
             $controller('CarsController', {'$scope': $scope, 'CarsService': MockedCarsService});
             expect($controller).toBeDefined();
             expect(CarsService);
