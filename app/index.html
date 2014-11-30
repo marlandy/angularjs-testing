@@ -12,7 +12,7 @@
             <li ng-repeat="car in cars">
                 <div>
                     <p>
-                        <span>Marca:</span> {{car.brand| uppercase}}
+                        <span>Marca:</span> {{car.brand | decorator}}
                     </p>
                     <p>
                         <span>Modelo:</span> {{car.model}}
@@ -26,7 +26,7 @@
 
         <script src="lib/angular/angular.js"></script>
         <script src="js/cars.js"></script>
-        <script src="js/uppercase-filter.js"></script>
+        <script src="js/decorator-filter.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
