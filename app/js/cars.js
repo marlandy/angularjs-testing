@@ -27,9 +27,7 @@
         };
     });
 
-/*
     module.controller('CarsController', ['$scope', 'CarsService', function ($scope, CarsService) {
             $scope.cars = CarsService.getAll();
-        }]);
-        */
+        }]);        
 })();
