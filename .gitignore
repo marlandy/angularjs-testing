@@ -16,3 +16,4 @@ plugins/
 build/
 node_modules/
 app/lib/
+test_reports/
