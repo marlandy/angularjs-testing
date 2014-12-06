@@ -1,7 +1,21 @@
 body {
     font-family: Arial, sans-serif;
+    color: #333;
 }
 
 ul {
     list-style: none;
+}
+
+li > div {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+li > div span {
+    font-style: italic;
+    color: #777;
 }
