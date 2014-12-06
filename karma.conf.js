@@ -10,7 +10,7 @@ module.exports = function (config) {
         ],
         autoWatch: true,
         frameworks: ['jasmine'],
-        browsers: ['Chrome'],
+        browsers: ['Chrome', 'Firefox'],
         singleRun: true,
         plugins: [
             'karma-chrome-launcher',
