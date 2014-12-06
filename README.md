@@ -1,4 +1,10 @@
 angularjs-testing
 =================
 
-AngularJS Sample
+## Environment: ##
+* nodejs is required
+
+## Running tests ##
+```
+npm test
+```
