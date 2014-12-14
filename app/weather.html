@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AngularJS - Testing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/default.css" rel="stylesheet">
+    </head>
+    <body ng-controller="TiempoController">
+        <div class="search">
+            <label for="ciudad">Ciudad:</label> 
+            <input type="text" id="ciudad" ng-model="ciudad"/>
+            <button ng-click="obtenerTiempo()">Calcular</button>
+        </div>        
+
+        <ul>
+            <li>
+                <div>
+                    <p>
+                        <span>Temperatura actual:</span> {{data.temp| kelvin2celsius}} ºC
+                    </p>
+                    <p>
+                        <span>Mínima:</span> {{data.temp_min| kelvin2celsius}} ºC
+                    </p>
+                    <p>
+                        <span>Máxima:</span> {{data.temp_max| kelvin2celsius}} ºC
+                    </p>
+                    <p>
+                        <span>Humedad:</span> {{data.humidity}} %
+                    </p>
+                </div>            
+            </li>
+        </ul>  
+        
+        <a href="index.html">VER EJEMPLO 1</a>
+
+        <script src="lib/angular/angular.js"></script>
+        <script src="js/tiempo.js"></script>
+        <script src="js/kelvintocelsius-filter.js"></script>
+        <script src="js/app2.js"></script>
+    </body>
+</html>
