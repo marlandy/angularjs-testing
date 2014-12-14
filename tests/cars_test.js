@@ -43,7 +43,6 @@ describe('Modulo app.cars', function () {
         it('debe exponer la lista de coches', inject(function ($controller, MockedCarsService) {
             $controller('CarsController', {'$scope': $scope, 'CarsService': MockedCarsService});
             expect($controller).toBeDefined();
-            expect(CarsService);
             expect($scope.cars.length).toBe(MockedCarsService.getAll().length);
 
         }));
