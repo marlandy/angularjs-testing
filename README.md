@@ -13,6 +13,6 @@ npm test
 
 [AngularJS y los tests unitarios](http://kcy.me/1eebq)
 
-![](http://www.adictosaltrabajo.com/tutoriales/AngularJSTestUnitarios/AngularJSTestUnitariosSuccess3.png)
+![](http://www.adictosaltrabajo.com/wp-content/uploads/tutorial-data/AngularJSTestUnitarios/AngularJSTestUnitariosSuccess3.png)
 
-![](http://www.adictosaltrabajo.com/tutoriales/AngularJSTestUnitarios/AngularJSTestUnitariosCoverage.png)
+![](http://www.adictosaltrabajo.com/wp-content/uploads/tutorial-data/AngularJSTestUnitarios/AngularJSTestUnitariosCoverage.png)
